@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Vector store / ingested data
+db/
+
+# Ingest logs
+logs/
+
+# Source documents — keep only the directory placeholder tracked
+source_documents/*
+!source_documents/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+
+# Env files
+.env
+.env.local
