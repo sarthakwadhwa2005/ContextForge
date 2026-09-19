@@ -1,5 +1,6 @@
 # Python
 __pycache__/
+.pytest_cache/
 *.py[cod]
 *$py.class
 *.so
@@ -29,3 +30,4 @@ source_documents/*
 # Env files
 .env
 .env.local
+*.tmp
