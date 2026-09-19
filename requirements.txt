@@ -1,0 +1,40 @@
+# Core LangChain ecosystem (latest)
+langchain>=1.0
+langchain-classic>=1.0
+langchain-community>=0.4
+langchain-huggingface>=1.0
+langchain-chroma>=1.0
+langchain-ollama>=1.0
+langchain-text-splitters>=1.0
+langchain-core>=1.0
+
+# Vector store
+chromadb>=0.5
+
+# Document loaders & processing
+PyMuPDF>=1.24
+unstructured>=0.10
+extract-msg>=0.45
+tabulate>=0.9
+pandoc>=2.3
+pypandoc>=1.11
+tqdm>=4.66
+
+# Embeddings
+sentence-transformers>=2.7
+
+# API server
+Flask>=3.0
+flasgger>=0.9
+flask-cors>=5.0
+flask-limiter>=3.5
+
+# Config
+python-dotenv>=1.0
+
+# UI
+streamlit>=1.30
+requests>=2.31
+
+# Testing
+pytest>=8.0
